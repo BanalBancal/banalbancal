@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,400;1,100;1,900&family=Nabla&family=Roboto+Mono&display=swap');
+
+body{
+    font-family: 'Chivo Mono', 'rowdies';
+    padding: 0;
+    margin: 3;
+    text-align: center;
+    color: chartreuse;
+    background: url(media/fond.mp4) fixed;
+    cursor: url('path/to/aubergine.png'),
+}
+.glide--dragging{
+    cursor:grabbing;
+    cursor:-webkit-grabbing}
+
+content{
+    cursor: url('media/aubergine.png'), pointer;
+}
+
+.cursor { 
+    cursor: url('path/to/aubergine.png'), 
+}
+    .cursors {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .cursors > div {
+        flex: 150px;
+        padding: 10px 2px;
+        white-space: nowrap;
+        border: 1px solid rgb(255, 0, 221);
+        border-radius: 5px;
+        margin: 0 5px 5px 0;
+      }
+
+header{
+    border-image-width: 10;
+    image-resolution: 50;
+
+}
+
+/* ///////////////////////        BACKGROUND      //////////////////// */
+
+.vidfon {
+    width: 100%;
+    object-fit: contain;  
+}
+
+.vidfon {
+    width: 100%;
+    /* height: auto;  */
+    height: 100%; 
+    position:fixed;
+    object-fit: cover;
+    z-index: -1;
+}
+ul{
+    margin: 2;
+    padding: 1;
+}
+
+h2{
+    font-family: rowdies;
+    padding-top: 10px;
+    font-size: 2em;
+    font-family: 'Nabla';
+}
+
+a{
+    text-decoration: wavy;
+    color: rgb(251, 140, 50);
+    text-shadow: 0px 0px 5px;
+}
+/* ************ NAV BAR ***********/
+nav{
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    width: 10%;
+    opacity: 98%;
+}
+header li {
+    float: calc(30);
+    font-size: medium;
+    image-rendering: initial;
+    border-image-width: 10;
+}
+li {
+    list-style-type: none;
+    text-align: center;
+}
+li :hover{
+    background-color: blue;
+}
+h4{
+    color: rgb(255, 0, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 5em;
+}
+h4:hover{
+    transform:scale(2);
+    transition: 0,1s;
+}
+header li a {
+    text-decoration: solid;
+    text-align: center;
+    padding-block: 60;
+}
+#logo {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    padding : 20
+}
+/*image principal ********* */
+#imagePrincipale {
+    padding-top: 70px;
+    background: url(media/vusuuuu.jpg) fixed;
+    background-size: cover;
+    height: 800px
+}
+h1{
+    font-family: rowdies;
+    color: coral;
+    padding-top: 10px;
+    font-size: 6em;
+    font-family: 'Nabla';
+
+}
+img{
+    block-size: 45%;
+}
+iframe{
+    color: rgb(244, 186, 115);
+}
+
+#background-video {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    margin: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    }
+    
+    h1, h2, 
+    
+#live{ 
+color: greenyellow; 
+font-family: Trebuchet MS;
+font-weight: bold;
+text-align: center;
+}
+    
+#deschansons {
+    background-color: rgb(242, 238, 119);
+}
+#leszinzounades {
+    background: url(media/fonfonf.png) fixed;
+}
+#leszinz {
+    background: url(media/heyo.png) fixed;
+}
+#tititititi {
+    background-color: rgb(219, 152, 128);
+}
+.imagestititititi {
+    display: flex;
+    background-color: rgb(47, 120, 255);
+}
+.imageszinzounades{
+    background: url(media/fonfonf.png) fixed;
+}
+
+.imageslogo img:hover {
+    opacity: 0,5;
+    transform: scale(0,5);
+    transition: 0,5; 
+    size-adjust: 0,2;
+    width: 10;
+}
+
+.imageslogo{
+    height: 200px
+}
+/* ******************** FOOTER ************ */
+
+footer{
+    padding: 20px 0 10px 0;
+    text-align: left;
+}
+
+form{
+    margin: auto;
+    max-width: 500px;
+}
+
+input, textarea, button {
+    border: none;
+    width: 55%;
+    padding: 10px 12px;
+    font-family: roboto;
+    border-radius: 5;
+}
+textarea{
+    height:100px
+}
+button{
+    font-size: 1.sem;
+    background-color: rgb(247, 152, 187);
+}
+button:hover{
+    background-color: blue;
+    color: lavender;
+    cursor: pointer;
+    transition: 0,3s ease-in-out;
+}
+#deuxiemeTrait{
+    height: 1px;
+    width: 75%;
+    background-color: aquamarine;
+    margin: 60px auto;
+}
+#copyrightEtIcons{
+    display: flex;
+    margin-bottom: 20px;
+    padding: 0 10%;
+}
+#copyright{
+    width: 70%;
+    text-align:center;
+}
+#copyright:hover{
+    transform:scale(2);
+    transition: 0,1s;
+}
+
+#vusuuuu:hover{
+    transform: scale(70%);
+    cursor: e-resize; 
+    background: url(media/Capture\ d’écran\ 2022-12-20\ à\ 19.50.38.png) fixed;
+}
